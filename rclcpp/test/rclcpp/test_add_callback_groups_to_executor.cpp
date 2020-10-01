@@ -75,7 +75,7 @@ public:
   }
 };
 
-TYPED_TEST_CASE(TestAddCallbackGroupsToExecutor, ExecutorTypes, ExecutorTypeNames);
+TYPED_TEST_SUITE(TestAddCallbackGroupsToExecutor, ExecutorTypes, ExecutorTypeNames);
 
 /*
  * Test adding callback groups.
